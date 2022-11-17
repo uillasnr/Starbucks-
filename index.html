@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,900;1,300;1,500;1,900&display=swap"rel="stylesheet">
+
+    <title>Starbucks®</title>
+</head>
+
+
+
+<body>            
+       <div class="circulo"></div>
+
+    
+
+    <div>
+        <img src="./logo.png" class="logo">
+
+        <div class="conteudo">
+
+            <div class="caixa-texto">
+
+              <h1><span>STARBUCKS®</span> <br>COFFEE AT HOME</h1>
+              <br>
+
+              <h2>Descubra os nossos cafés Starbucks®<br> Desfrute de uma xícara de café 100% </h2>
+              <br>
+
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Consectetur ex autem ipsa corporis in, illo
+                officia! Praesentium, voluptate.<br> Doloribus porro aliquam nihil ea alias facere libero quibusdam
+                totam nam
+                voluptatum.</p>
+
+              <button>Deixe o seu like!</button>
+
+            </div>
+
+            <div class="caixa-imagem">
+                <img src="./img1.png" class="starbucks">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="menu">
+        <img src="./thumb1.png" class="botao-menu" onclick="trocaImagem('./img1.png'); trocacor('#017143')">
+        <img src="./thumb2.png" class="botao-menu" onclick="trocaImagem('./img2.png'); trocacor('#eb7495')">
+        <img src="./thumb3.png" class="botao-menu" onclick="trocaImagem('./img3.png'); trocacor('#d752b1')">
+
+    </div>
+
+
+</body>
+<script>
+    let imagem = document.querySelector(".starbucks")
+    let circulo=document.querySelector(".circulo")
+
+
+    function trocaImagem(endereco){
+        imagem.src = endereco
+    }
+
+    function trocacor(cor){
+        circulo.style.background = cor
+    }
+    
+    
+
+</script>
+
+</html>
