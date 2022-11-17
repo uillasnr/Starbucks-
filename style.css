@@ -12,19 +12,19 @@ body {
 }
 
 .conteudo{
-    width: 100%;               /*largura */
-    display: flex;            /*um item ao lado do outro*/
-    justify-content: space-between; /*aliar item aou lado ou no centro*/
+    width: 100%;               
+    display: flex;            
+    justify-content: space-between; 
     align-items: center;
 }
 .caixa-texto{
     width: 600px;
 }
 .caixa-imagem{
-    width: 100px;         /**/
+    width: 100px;     
     display: flex;
     justify-content: flex-end;
-    margin-top: -15px;    /*o coreto e 250px eu aouterei para cabertodo na pagina web*/
+    margin-top: -15px;    
 }
 .menu{
     display: flex;
@@ -46,17 +46,17 @@ span {
 }
 
 p {
-    font-size: 16px;          /*tamamho da fonte */
+    font-size: 16px;         
 }
 
 button {
-    background: #017143;     /*fundo do elemnto*/
-    color: white;           /*cor do texto */
-    border-radius: 40px;     /*arrendondar a borda */
-    border: none;           /*borda do elemnto */
-    cursor: pointer;       /*cursor do mause */
-    padding: 10px;        /*espaço interno */
-    margin-top: 20px;    /*alinha os itens na vertical*/
+    background: #017143;     
+    color: white;          
+    border-radius: 40px;     
+    border: 1px solid #017143;   
+    cursor: pointer;       
+    padding: 10px;        
+    margin-top: 20px;    
 
 }
 
@@ -89,3 +89,9 @@ button {
     z-index: -1;
     
 }
+
+button:hover{
+    background: white;
+    color: black;
+}
+   
